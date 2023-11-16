@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Task from "./Task";
 import AddTask from "./AddTask";
-import { useTodo } from "../Reducers/useTodo";
+import { useTodo } from "../hooks/useTodo";
 
 // Types
 import { RequestState } from "../lib/definitions";
